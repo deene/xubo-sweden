@@ -1,35 +1,31 @@
-# Site wide configuration
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
 
-title: Xubo Sweden
-description: The official site of Xubo Sweden
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
-url: //deene.github.io
+url: http://yoursite.com
+title: Your Awesome Site
+email: your-email@domain.com
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description."
 
-# Jekyll configuration
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
 
-sass:
-    sass_dir: _sass
-    style: compressed
-permalink: /:categories/:title/
+# Build settings
 markdown: kramdown
-highlighter: pygments
-gems:
-  - jekyll-sitemap
+permalink: pretty
 
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
 
-# Site owner
-owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
-
-
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: linkedin
+    url: 
