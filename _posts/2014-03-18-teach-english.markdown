@@ -1,11 +1,11 @@
 ---
-title: Internship
+title: Teach English
 subtitle: available in different cities
 layout: default
 modal-id: 3
 date: 2014-03-18
-img: internship.png
-thumbnail: internship-thumbnail.png
+img: teach-eng.png
+thumbnail: teach-eng-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
