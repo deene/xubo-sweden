@@ -2,10 +2,10 @@
 title: Teach English
 subtitle: available in different cities
 layout: default
-modal-id: 7
+modal-id: 1
 date: 2014-01-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: teach-eng.png
+thumbnail: teach-eng-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
