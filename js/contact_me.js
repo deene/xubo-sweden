@@ -18,8 +18,8 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: "https://guarded-harbor-6399.herokuapp.com/-contact-us",
+                type: "GET",
                 data: {
                     name: name,
                     phone: phone,
@@ -49,8 +49,8 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
-            })
+                }
+            });
         },
         filter: function() {
             return $(this).is(":visible");
